@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "emulogic";
+    src: url(../fonts/emulogic.ttf);
+    /*font-family: "CRACK-MAN";
+    src: url(../fonts/CrackMan.TTF);*/
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: "emulogic", poppins;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 120px;
+      background: #11141a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    .logo{
+      font-size: 25px;
+      color: #fdff00;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a{
+      font-size: 18px;
+      color: #46bfee;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 35px;
+      transition: .3s;
+    }
+    nav a:hover,
+    nav a.active{
+      color: #d03e19;
+    }
+    
+      
+    
+    body {
+      margin: 0;
+      background: black;
+      color: #fff;
+    }
+  
+
+/*------------Contact Page-----------------*/
+footer {
+    background-color: #11141a; /* Example background color */
+    color: #ffffff; /* Example text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.col1{
+  margin-left: 10%;
+}
+
+.col1 h2{
+  margin-top: 10%;
+  padding-bottom: 20px;
+  color: #FD0061;
+}
+.col1 p{
+  padding-bottom: 20px;
+}
+.reach-us{
+  color: #ACA9AD;
+}
+.inp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+
+}
+.inp-m{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 70px;
+  border-radius: 5px
+}
+.sbutton{
+  margin: 0 10px;
+        padding: 10px 20px;
+        border-radius: 15px;
+  
+  color: #fff;
+  background-color: #B559E2;
+  font-size: 20px;
+        cursor: pointer;
+}
+
+
+
+.form{
+  margin-top: 30px;
+  
+  margin-bottom: 230px;
+}
+
+.copyright{
+   margin-top: 10px;
+  
+}

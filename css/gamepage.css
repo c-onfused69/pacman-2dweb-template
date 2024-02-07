@@ -1,0 +1,88 @@
+/*------------Game Page-----------------*/
+@font-face {
+    font-family: "emulogic";
+    src: url(../fonts/emulogic.ttf);
+    /*font-family: "CRACK-MAN";
+    src: url(../fonts/CrackMan.TTF);*/
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: "emulogic", poppins;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 120px;
+      background: #11141a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+    .logo{
+      font-size: 25px;
+      color: #fdff00;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a{
+      font-size: 18px;
+      color: #46bfee;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 35px;
+      transition: .3s;
+    }
+    nav a:hover,
+    nav a.active{
+      color: #d03e19;
+    }
+
+/* CSS for Games Page */
+
+
+body {
+    background-image: url('../images/assets/64c667dafaaf8c07c7a1483a_Jam.gg_2.webp'); /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures the body covers the entire viewport height */
+    color: white;
+  }
+  h2.gpwt{
+    color: #fff;
+    text-align: center;
+    margin-top: 900px;
+    font-weight: 600;
+  }
+  p.chg{
+    margin-bottom: 10px;
+  }
+  
+  ul.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+  }
+  ul games:hover,
+  ul games.activeg{
+    color: #d03e19;
+  }
