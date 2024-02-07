@@ -30,7 +30,7 @@ To get started with this template, follow these steps:
 3. Launch the `index.html` file in your web browser to play Pacman.
 
 ## Demo
-You can try out a live demo of this Pacman 2D Web Template [here]([https://github.com/c-onfused69/pacman-2dweb-template](https://master--pacman2d-wt.netlify.app/)).
+You can try out a live demo of this Pacman 2D Web Template [here](https://pacman2d-wt.netlify.app/).
 
 ## Credits
 - The Pacman game concept and characters are inspired by the classic Pacman arcade game.
